@@ -1,0 +1,24 @@
+[mgr]
+cwd =  { fg = "#1b1b1b", bg = "#E7E7E7" }
+hovered =  { fg = "#1b1b1b", bg = "#d8d8d8" }
+
+[tabs]
+active   = { fg = "#1b1b1b", bg = "#f6f6f6" }
+inactive = { fg = "#A2A2A2", bg = "#EEEEEE" }
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
+
+[status]
+overall   = { bg = "#DDDDDD" }
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+[mode]
+normal_main = { fg = "#E7E7E7", bg = "#1b1b1b" }
+normal_alt = { fg = "#1b1b1b", bg = "#cfcfcf" }
+
+[filetype]
+rules = [
+    { name = "*", fg = "#537788" },
+    { name = "*/", fg = "#787878" },
+]
